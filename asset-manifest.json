@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/form-register-login-app/static/css/main.9e7ebce4.chunk.css",
+    "main.js": "/form-register-login-app/static/js/main.560d9d82.chunk.js",
+    "main.js.map": "/form-register-login-app/static/js/main.560d9d82.chunk.js.map",
+    "runtime-main.js": "/form-register-login-app/static/js/runtime-main.3afe8305.js",
+    "runtime-main.js.map": "/form-register-login-app/static/js/runtime-main.3afe8305.js.map",
+    "static/js/2.78587906.chunk.js": "/form-register-login-app/static/js/2.78587906.chunk.js",
+    "static/js/2.78587906.chunk.js.map": "/form-register-login-app/static/js/2.78587906.chunk.js.map",
+    "static/js/3.3c0c021c.chunk.js": "/form-register-login-app/static/js/3.3c0c021c.chunk.js",
+    "static/js/3.3c0c021c.chunk.js.map": "/form-register-login-app/static/js/3.3c0c021c.chunk.js.map",
+    "index.html": "/form-register-login-app/index.html",
+    "static/css/main.9e7ebce4.chunk.css.map": "/form-register-login-app/static/css/main.9e7ebce4.chunk.css.map",
+    "static/js/2.78587906.chunk.js.LICENSE.txt": "/form-register-login-app/static/js/2.78587906.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/form-register-login-app/static/media/Roboto-Regular.a8d6ac03.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3afe8305.js",
+    "static/js/2.78587906.chunk.js",
+    "static/css/main.9e7ebce4.chunk.css",
+    "static/js/main.560d9d82.chunk.js"
+  ]
+}
