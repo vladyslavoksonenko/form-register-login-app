@@ -1,0 +1,105 @@
+.Sing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+
+  &__logo {
+    background-color: rgb(179, 83, 127);
+    border-radius: 50px;
+    padding: 15px;
+    width: 40px;
+    margin: auto;
+    img {
+      width: 40px;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  &__input-text {
+    // display: flex;
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  &__name {
+    display: flex;
+    width: auto;
+    .name {
+      max-width: 36.5%;
+    }
+    .first-name {
+      margin-right: 18px;
+    }
+  }
+
+  &__input-text:focus {
+    border: 0px solid #fff;
+  }
+
+  &__input-checkbox {
+
+    margin-bottom: 30px;
+
+  }
+
+  &__input-button {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0px solid #fff;
+    background-color: rgb(89, 180, 233);
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  &__input-button:hover {
+    background-color: rgb(129, 198, 238);
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 45px;
+    a {
+      color: rgb(89, 180, 233);
+      font-size: 14px;
+      position: block;
+      margin: auto;
+    }
+    a:hover {
+      color: rgb(129, 198, 238);
+    }
+  }
+
+  &__footer {
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+  }
+}
