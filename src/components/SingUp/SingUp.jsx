@@ -34,7 +34,7 @@ const SingUp = () => {
           <a href="http://google.com/">Forgot Password?</a>
         </div>
         <div className="Sing__link"> 
-          <Link to="/form-register-login-app">Already have an account? SingIn</Link>
+          <Link to="/">Already have an account? SingIn</Link>
         </div>
       </div>
       <footer>
