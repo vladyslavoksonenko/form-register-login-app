@@ -11,7 +11,6 @@ import {
 
 const SingIn = () => {
   return (
-    <BrowserRouter>
     <section className="Sing">
       <div className="Sing__logo">
         <img src={padlock} alt={padlock} />
@@ -27,7 +26,7 @@ const SingIn = () => {
       </form>
       <div className="Sing__links">
         <div className="Sing__link">
-          <a href="http://google.com">Forgot Password?</a>
+          <a href="#">Forgot Password?</a>
         </div>
         <div className="Sing__link"> 
           <Link to="/register">Don`t have an account? SingUp</Link>
@@ -39,7 +38,6 @@ const SingIn = () => {
         </div>
       </footer>
     </section>
-    </BrowserRouter>
   )
 }
 

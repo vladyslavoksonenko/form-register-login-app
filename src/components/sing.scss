@@ -5,6 +5,9 @@
   justify-content: center;
   max-width: 400px;
   width: 100%;
+  background-color: transparent;
+  padding: 0 10px;
+  box-sizing: border-box;
 
   &__logo {
     background-color: rgb(179, 83, 127);
@@ -32,8 +35,6 @@
   }
 
   &__input-text {
-    // display: flex;
-    max-width: 350px;
     width: 100%;
     background-color: rgb(24, 24, 24);
     border: 1px solid rgb(82, 82, 82);
@@ -44,17 +45,38 @@
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
   }
-  
+
+  .warning {
+    border: 2px solid rgb(255, 89, 89);
+  }
+
+  .acception {
+    border: 2px solid rgb(99, 255, 133);
+  }
+
+  input:focus-visible {
+    outline: none;
+    border: 1px solid #fff;
+  }
+
+  input:-internal-autofill-selected {
+    background-color: rgb(24, 24, 24) !important;
+    color: #fff !important;
+
+  }
+
   &__name {
     display: flex;
-    width: auto;
-    .name {
-      max-width: 36.5%;
-    }
-    .first-name {
-      margin-right: 18px;
-    }
+  }
+  
+  .first-name {
+    margin-right: 10px;
+  }
+
+  &__block {
+    width: 100%;
   }
 
   &__input-text:focus {
@@ -62,9 +84,10 @@
   }
 
   &__input-checkbox {
-
     margin-bottom: 30px;
-
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 300px;
   }
 
   &__input-button {
@@ -87,6 +110,8 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
     a {
       color: rgb(89, 180, 233);
       font-size: 14px;

@@ -10,7 +10,6 @@ import {
 
 const SingUp = () => {
   return (
-    <BrowserRouter>
     <section className="Sing">
       <div className="Sing__logo">
         <img src={padlock} alt={padlock} />
@@ -20,12 +19,14 @@ const SingUp = () => {
       </div>
       <form className="Sing__form">
         <div className="Sing__name">
-          <input className="Sing__input-text name" type="text" name="FirstName" placeholder="First Name *" />
-          <input className="Sing__input-text name" type="text" name="LastName" placeholder="Last Name *" />
+          <input className="Sing__input-text first-name" type="text" name="FirstName" placeholder="First Name *" />
+          <input className="Sing__input-text" type="text" name="LastName" placeholder="Last Name *" />
         </div>
-        <input className="Sing__input-text" type="email" name="email" placeholder="Email Address *" />
-        <input className="Sing__input-text" type="password" name="password" placeholder="Password *" />
-        <span className="Sing__input-checkbox"><input type="checkbox" name="checkbox" id="checkbox" /><label>Remember me</label></span>
+        <div className="Sing__block">
+          <input className="Sing__input-text" type="email" name="email" placeholder="Email Address *" />
+          <input className="Sing__input-text" type="password" name="password" placeholder="Password *" />
+        </div>
+        <span className="Sing__input-checkbox"><input type="checkbox" name="promotions" id="checkbox" /><label>I want to receive inspiration, marketing promotions and updates via email.</label></span>
         <input className="Sing__input-button" type="button" name="button" value="Sing In" />
       </form>
       <div className="Sing__links">
@@ -42,7 +43,6 @@ const SingUp = () => {
         </div>
       </footer>
     </section>
-    </BrowserRouter>
   )
 }
 
