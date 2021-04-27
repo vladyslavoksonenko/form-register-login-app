@@ -29,7 +29,7 @@ const SingIn = () => {
           <a href="#">Forgot Password?</a>
         </div>
         <div className="Sing__link"> 
-          <Link to="/register">Don`t have an account? SingUp</Link>
+          <Link to="form-register-login-app/register">Don`t have an account? SingUp</Link>
         </div>
       </div>
       <footer>

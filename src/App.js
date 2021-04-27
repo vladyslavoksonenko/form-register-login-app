@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Route exact path="/">
+        <Route exact path="/form-register-login-app">
           <SingIn />
         </Route>
-        <Route path="/register">
+        <Route path="/form-register-login-app/register">
           <SingUp />
         </Route>
       </BrowserRouter>
