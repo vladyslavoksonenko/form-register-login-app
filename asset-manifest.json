@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/form-register-login-app/static/css/main.7cb6ae1e.chunk.css",
-    "main.js": "/form-register-login-app/static/js/main.3dc76f41.chunk.js",
-    "main.js.map": "/form-register-login-app/static/js/main.3dc76f41.chunk.js.map",
-    "runtime-main.js": "/form-register-login-app/static/js/runtime-main.3afe8305.js",
-    "runtime-main.js.map": "/form-register-login-app/static/js/runtime-main.3afe8305.js.map",
-    "static/js/2.26f42ad6.chunk.js": "/form-register-login-app/static/js/2.26f42ad6.chunk.js",
-    "static/js/2.26f42ad6.chunk.js.map": "/form-register-login-app/static/js/2.26f42ad6.chunk.js.map",
-    "static/js/3.3c0c021c.chunk.js": "/form-register-login-app/static/js/3.3c0c021c.chunk.js",
-    "static/js/3.3c0c021c.chunk.js.map": "/form-register-login-app/static/js/3.3c0c021c.chunk.js.map",
+    "main.css": "/form-register-login-app/static/css/main.bfc0117d.chunk.css",
+    "main.js": "/form-register-login-app/static/js/main.9f7e2ee0.chunk.js",
+    "main.js.map": "/form-register-login-app/static/js/main.9f7e2ee0.chunk.js.map",
+    "runtime-main.js": "/form-register-login-app/static/js/runtime-main.68260886.js",
+    "runtime-main.js.map": "/form-register-login-app/static/js/runtime-main.68260886.js.map",
+    "static/js/2.0d119f27.chunk.js": "/form-register-login-app/static/js/2.0d119f27.chunk.js",
+    "static/js/2.0d119f27.chunk.js.map": "/form-register-login-app/static/js/2.0d119f27.chunk.js.map",
+    "static/js/3.16bd01b4.chunk.js": "/form-register-login-app/static/js/3.16bd01b4.chunk.js",
+    "static/js/3.16bd01b4.chunk.js.map": "/form-register-login-app/static/js/3.16bd01b4.chunk.js.map",
     "index.html": "/form-register-login-app/index.html",
-    "static/css/main.7cb6ae1e.chunk.css.map": "/form-register-login-app/static/css/main.7cb6ae1e.chunk.css.map",
-    "static/js/2.26f42ad6.chunk.js.LICENSE.txt": "/form-register-login-app/static/js/2.26f42ad6.chunk.js.LICENSE.txt",
+    "static/css/main.bfc0117d.chunk.css.map": "/form-register-login-app/static/css/main.bfc0117d.chunk.css.map",
+    "static/js/2.0d119f27.chunk.js.LICENSE.txt": "/form-register-login-app/static/js/2.0d119f27.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/form-register-login-app/static/media/Roboto-Regular.a8d6ac03.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3afe8305.js",
-    "static/js/2.26f42ad6.chunk.js",
-    "static/css/main.7cb6ae1e.chunk.css",
-    "static/js/main.3dc76f41.chunk.js"
+    "static/js/runtime-main.68260886.js",
+    "static/js/2.0d119f27.chunk.js",
+    "static/css/main.bfc0117d.chunk.css",
+    "static/js/main.9f7e2ee0.chunk.js"
   ]
 }
