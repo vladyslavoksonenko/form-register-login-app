@@ -1,11 +1,6 @@
 import React from 'react';
 import padlock from '../../img/padlock.png'
-import SingUp from '../SingUp/SingUp'
 import { 
-  BrowserRouter,
-  Switch,
-  Route,
-  Redirect,
   Link
  } from 'react-router-dom'
 
